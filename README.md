@@ -103,7 +103,7 @@ To access the Django admin interface and manage the application's database, you 
 
 ## Usage
 
-- You can search your desired stocks in the http://localhost:3000/dashboard and add to your watchlist
+- You can search your desired stock symbols in the http://localhost:3000/dashboard and add to your watchlist (Example: GOOG, IBM, MSFT etc.)
 
 - You can also check and manage your favorite stocks in the http://localhost:3000/watchlist
   
