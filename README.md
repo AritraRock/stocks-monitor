@@ -24,7 +24,7 @@ This stock monitoring platform allows users to create and manage watchlists of s
 Clone the repository:
 
 ```bash
-  git clone https://github.com/AritraRock/Stock-Monitor.git
+  git clone https://github.com/AritraRock/stocks-monitor.git
   cd Stock-Monitor
 ```
 ### Backend
