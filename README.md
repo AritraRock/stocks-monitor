@@ -75,16 +75,7 @@ Access the frontend application at http://localhost:3000 in your browser. (witho
 
 # Password Constraints in Django Application
 
-This repository contains a Django application that enforces certain constraints on passwords to enhance security. Below are the constraints defined in the application's settings:
-
-- **User Attribute Similarity Validator**: Ensures that the password is not too similar to user attributes such as username or email.
-- **Minimum Length Validator**: Requires the password to be at least 8 characters long.
-- **Common Password Validator**: Checks whether the password is a commonly used or easily guessable password.
-- **Numeric Password Validator**: Requires the password to contain at least one numeric character.
-
-## Usage
-
-When creating or updating your password, make sure it meets these constraints to ensure the security of your account.
+This repository contains AUTH_PASSWORD_VALIDATORS that enforces certain constraints on passwords to enhance security. Below are the constraints defined in the application's settings:
 
 ## How to Ensure Compliance
 
@@ -95,13 +86,25 @@ When registering or updating passwords in the application, users should pay atte
 3. **Include Numeric Characters**: Incorporate at least one numeric character in your password.
 4. **Avoid User Attributes**: Ensure that your password is not too similar to your username, email, or other user attributes.
 
-## Example
+### Example
 
-Suppose you're registering or updating your password in the application. Here's an example of a strong password that meets the defined constraints:
+Suppose you're registering or updating your password in the application. Here's an example of a strong password that meets the defined constraints: test@1234
 
+## Creating a Superuser
+
+To access the Django admin interface and manage the application's database, you need to create a superuser. Follow the steps below to create a superuser:
+
+1. Open a terminal or command prompt.
+2. Navigate to the project directory where the Django application is located.
+3. Run the following command:
+
+   ```bash
+   python manage.py createsuperuser
 
 ## Usage
 
 - You can search your desired stocks in the http://localhost:3000/dashboard and add to your watchlist
 
 - You can also check and manage your favorite stocks in the http://localhost:3000/watchlist
+  
+- With the superuser email and password you can login at the django admin interfacehttp://127.0.0.1:8000/admin/ to check how datas are stored.
