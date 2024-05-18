@@ -73,7 +73,7 @@ Start the development server:
 ```
 Access the frontend application at http://localhost:3000 in your browser. (without starting backend you won't be able to register or login)
 
-# Password Constraints in Django Application
+# Password Constraints for Registration
 
 This repository contains AUTH_PASSWORD_VALIDATORS that enforces certain constraints on passwords to enhance security. Below are the constraints defined in the application's settings:
 
