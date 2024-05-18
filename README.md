@@ -107,4 +107,4 @@ To access the Django admin interface and manage the application's database, you 
 
 - You can also check and manage your favorite stocks in the http://localhost:3000/watchlist
   
-- With the superuser email and password you can login at the django admin interfacehttp://127.0.0.1:8000/admin/ to check how datas are stored.
+- With the superuser email and password you can login at the django admin interface http://127.0.0.1:8000/admin/ to check how datas are stored.
