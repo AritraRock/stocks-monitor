@@ -32,7 +32,7 @@ Clone the repository:
 Create a terminal at parent folder(Stock-Monitor) and navigate to the backend directory:
 
 ```bash
-  cd backend_api
+  cd backend
 ```
 
 Install dependencies:
